@@ -266,30 +266,43 @@
                                     <constraint firstAttribute="bottom" secondItem="Vl8-Bz-Sl2" secondAttribute="bottom" id="tS7-he-o8f"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Edq-tV-Y1f">
+                                <rect key="frame" x="10" y="215.66666666666666" width="50" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="3xZ-z4-BRc"/>
+                                    <constraint firstAttribute="width" constant="50" id="WH5-uW-8Bx"/>
+                                </constraints>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mb2-if-MRp">
-                                <rect key="frame" x="10" y="215.66666666666666" width="60" height="40"/>
+                                <rect key="frame" x="10" y="215.66666666666666" width="46" height="40"/>
                                 <subviews>
                                     <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="900" verticalHuggingPriority="251" image="temp_beko" translatesAutoresizingMaskIntoConstraints="NO" id="kJr-nz-lRU">
-                                        <rect key="frame" x="10" y="10" width="40" height="20"/>
+                                        <rect key="frame" x="3" y="3" width="40" height="34"/>
                                         <viewLayoutGuide key="safeArea" id="DCX-h3-Kmm"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="buQ-Pb-wff"/>
+                                        </constraints>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="kJr-nz-lRU" firstAttribute="top" secondItem="mb2-if-MRp" secondAttribute="top" constant="10" identifier="logoConstraint" id="Ceu-Pa-iQ1"/>
+                                    <constraint firstItem="kJr-nz-lRU" firstAttribute="top" secondItem="mb2-if-MRp" secondAttribute="top" constant="3" identifier="logoConstraint" id="Ceu-Pa-iQ1"/>
                                     <constraint firstAttribute="height" constant="40" id="EyK-7P-yCR"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="140" id="JwU-nw-syH"/>
-                                    <constraint firstAttribute="bottom" secondItem="kJr-nz-lRU" secondAttribute="bottom" constant="10" identifier="logoConstraint" id="noq-pX-eS4"/>
-                                    <constraint firstAttribute="trailing" secondItem="kJr-nz-lRU" secondAttribute="trailing" constant="10" identifier="logoConstraint" id="rEz-g8-vz4"/>
-                                    <constraint firstItem="kJr-nz-lRU" firstAttribute="leading" secondItem="mb2-if-MRp" secondAttribute="leading" constant="10" identifier="logoConstraint" id="tn8-le-csS"/>
+                                    <constraint firstAttribute="bottom" secondItem="kJr-nz-lRU" secondAttribute="bottom" constant="3" identifier="logoConstraint" id="noq-pX-eS4"/>
+                                    <constraint firstAttribute="trailing" secondItem="kJr-nz-lRU" secondAttribute="trailing" constant="3" identifier="logoConstraint" id="rEz-g8-vz4"/>
+                                    <constraint firstItem="kJr-nz-lRU" firstAttribute="leading" secondItem="mb2-if-MRp" secondAttribute="leading" constant="3" identifier="logoConstraint" id="tn8-le-csS"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="Edq-tV-Y1f" firstAttribute="top" secondItem="ShM-gi-sEO" secondAttribute="bottom" constant="-20" id="08R-vm-TZn"/>
                             <constraint firstAttribute="trailing" secondItem="J5l-h3-5Z1" secondAttribute="trailing" id="DI0-DM-xzG"/>
                             <constraint firstItem="J5l-h3-5Z1" firstAttribute="leading" secondItem="fCq-Uc-vZy" secondAttribute="leading" id="Fv7-Lc-Fv5"/>
+                            <constraint firstItem="Edq-tV-Y1f" firstAttribute="leading" secondItem="fCq-Uc-vZy" secondAttribute="leading" constant="10" id="GZE-nd-UAx"/>
                             <constraint firstItem="G8R-s3-Mbh" firstAttribute="top" secondItem="fCq-Uc-vZy" secondAttribute="top" constant="15" id="HvG-u8-DGB"/>
                             <constraint firstItem="ShM-gi-sEO" firstAttribute="leading" secondItem="fCq-Uc-vZy" secondAttribute="leading" id="I0L-uD-IRu"/>
                             <constraint firstItem="da0-27-RZR" firstAttribute="top" secondItem="fCq-Uc-vZy" secondAttribute="top" constant="15" id="MLK-qk-XzK"/>
@@ -326,8 +339,11 @@
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
                 <outlet property="actionButton" destination="AU9-qR-VOm" id="TmN-1a-CKG"/>
+                <outlet property="brandImageBackgroundView" destination="Edq-tV-Y1f" id="h04-mm-FUI"/>
                 <outlet property="brandImageContainerView" destination="mb2-if-MRp" id="7MD-yO-BE8"/>
                 <outlet property="brandImageView" destination="kJr-nz-lRU" id="Phg-xf-x3d"/>
+                <outlet property="brandImageViewContainerWidthConstraint" destination="WH5-uW-8Bx" id="B4o-QC-LHV"/>
+                <outlet property="brandImageViewWidthConstraint" destination="buQ-Pb-wff" id="OXa-L7-W67"/>
                 <outlet property="campaignView" destination="fCq-Uc-vZy" id="zJz-oa-QHi"/>
                 <outlet property="contentImageView" destination="ShM-gi-sEO" id="Diy-cN-cec"/>
                 <outlet property="contentTitleLabel" destination="Uff-AJ-dwV" id="gYT-iJ-Lh8"/>

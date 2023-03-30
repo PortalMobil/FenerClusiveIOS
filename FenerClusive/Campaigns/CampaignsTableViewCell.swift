@@ -21,11 +21,14 @@ class CampaignsTableViewCell: UITableViewCell {
     @IBOutlet weak var lineView: UIView!
     @IBOutlet weak var actionButton: UIButton!
     @IBOutlet weak var brandImageContainerView: UIView!
+    @IBOutlet weak var brandImageBackgroundView: UIView!
     @IBOutlet weak var rateImageView: UIImageView!
     @IBOutlet weak var rateButton: UIButton!
     @IBOutlet weak var distanceView: UIView!
     @IBOutlet weak var distanceLabel: UILabel!
     @IBOutlet weak var likeCountContainerView: UIView!
+    @IBOutlet weak var brandImageViewWidthConstraint: NSLayoutConstraint!
+    @IBOutlet weak var brandImageViewContainerWidthConstraint: NSLayoutConstraint!
     
     private var shadowLayer = CAShapeLayer()
     
@@ -119,7 +122,7 @@ class CampaignsTableViewCell: UITableViewCell {
                 color: .black,
                 opacity: 0.4
             )
-            brandImageContainerView.addShadowToView(
+            brandImageBackgroundView.addShadowToView(
                 shadowLayer: shadowLayer,
                 x: 0,
                 y: 8,
@@ -175,6 +178,7 @@ class CampaignsTableViewCell: UITableViewCell {
     
     private func setupImage() {
         brandImageContainerView.isHidden = true
+        brandImageBackgroundView.isHidden = true
         brandImageView.image = nil
         brandImageView.backgroundColor = .white
         
@@ -197,12 +201,16 @@ class CampaignsTableViewCell: UITableViewCell {
                 DispatchQueue.main.async {
                     guard let image = self.brandImageView.image else {
                         self.brandImageContainerView.isHidden = true
+                        self.brandImageBackgroundView.isHidden = true
                         return
                     }
                     var imageRatio = image.size.width / image.size.height
                     if imageRatio < 1 {
                         imageRatio = 1
                     }
+                    let constant = imageRatio * 34
+                    self.brandImageViewWidthConstraint.constant = constant
+                    self.brandImageViewContainerWidthConstraint.constant = constant + 6
                     self.brandImageView.layoutIfNeeded()
                     self.brandImageContainerView.layoutIfNeeded()
                     
@@ -224,18 +232,19 @@ class CampaignsTableViewCell: UITableViewCell {
     
     
     private func updateCornerRadius() {
+        brandImageBackgroundView.isHidden = false
         brandImageContainerView.isHidden = false
         brandImageContainerView.backgroundColor = UIColor.white
         brandImageView.backgroundColor = .clear
         
         guard brandImageView.image != nil else {
             brandImageContainerView.isHidden = true
+            brandImageBackgroundView.isHidden = true
             return
         }
-        
-        brandImageContainerView.layer.cornerRadius = 20
-        brandImageContainerView.layer.masksToBounds = false
-        brandImageContainerView.addShadowToView(
+        brandImageBackgroundView.layer.cornerRadius = 20
+        brandImageBackgroundView.layer.masksToBounds = false
+        brandImageBackgroundView.addShadowToView(
             shadowLayer: shadowLayer,
             x: 0,
             y: 8,
