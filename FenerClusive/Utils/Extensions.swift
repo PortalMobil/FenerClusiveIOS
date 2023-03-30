@@ -49,24 +49,6 @@ extension Bundle {
     static var module: Bundle = .init(for: CampaignViewController.self)
 }
 
-extension UIImageView {
-    func load(url: URL?, completion:@escaping (UIImage?)->()) {
-        DispatchQueue.global().async { [weak self] in
-            if let url = url, let data = try? Data(contentsOf: url), let image = UIImage(data: data)  {
-                DispatchQueue.main.async {
-                    self?.image = image
-                    completion(image)
-                }
-            }else {
-                DispatchQueue.main.async {
-                    self?.image = UIImage(namedInModule: "no_image")
-                    completion(nil)
-                }
-            }
-        }
-    }
-}
-
 extension UIView {
     func addShadowToView(
         shadowLayer: CAShapeLayer,

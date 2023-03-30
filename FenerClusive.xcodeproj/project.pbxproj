@@ -14,9 +14,7 @@
 		BF0C3C4929D466CC00CCDE78 /* CampaignCategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF0C3C4729D466CC00CCDE78 /* CampaignCategoryCollectionViewCell.xib */; };
 		BF0C3C5029D4741900CCDE78 /* AppInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C3C4F29D4741900CCDE78 /* AppInterface.swift */; };
 		BF0C3C5229D47F6E00CCDE78 /* CampaignModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C3C5129D47F6E00CCDE78 /* CampaignModel.swift */; };
-		BF0C3C5429D482F800CCDE78 /* CampaingsResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = BF0C3C5329D482F800CCDE78 /* CampaingsResponse.json */; };
 		BF0C3C5629D485BA00CCDE78 /* CampaignCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C3C5529D485BA00CCDE78 /* CampaignCategory.swift */; };
-		BF0C3C5829D48D8F00CCDE78 /* CampaingCategories.json in Resources */ = {isa = PBXBuildFile; fileRef = BF0C3C5729D48D8F00CCDE78 /* CampaingCategories.json */; };
 		BF0C3CA429D4DFC900CCDE78 /* Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C3C5F29D4DFC800CCDE78 /* Runtime.swift */; };
 		BF0C3CA529D4DFC900CCDE78 /* CallbackQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C3C6029D4DFC800CCDE78 /* CallbackQueue.swift */; };
 		BF0C3CA629D4DFC900CCDE78 /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C3C6129D4DFC800CCDE78 /* Delegate.swift */; };
@@ -79,6 +77,7 @@
 		BF0C3CDF29D4DFC900CCDE78 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C3CA229D4DFC900CCDE78 /* KingfisherManager.swift */; };
 		BF0C3CE029D4DFC900CCDE78 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C3CA329D4DFC900CCDE78 /* KingfisherOptionsInfo.swift */; };
 		BF0C3CE229D4F33A00CCDE78 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C3CE129D4F33A00CCDE78 /* Extensions.swift */; };
+		BF57D01229D56E2900931055 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF57D01129D56E2900931055 /* Data.swift */; };
 		BFF6E52D29D43F5300BA6110 /* FenerClusive.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF6E52C29D43F5300BA6110 /* FenerClusive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFF6E54929D4421D00BA6110 /* CampaignsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6E54729D4421D00BA6110 /* CampaignsTableViewCell.swift */; };
 		BFF6E54A29D4421D00BA6110 /* CampaignsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFF6E54829D4421D00BA6110 /* CampaignsTableViewCell.xib */; };
@@ -93,9 +92,7 @@
 		BF0C3C4729D466CC00CCDE78 /* CampaignCategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CampaignCategoryCollectionViewCell.xib; sourceTree = "<group>"; };
 		BF0C3C4F29D4741900CCDE78 /* AppInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInterface.swift; sourceTree = "<group>"; };
 		BF0C3C5129D47F6E00CCDE78 /* CampaignModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignModel.swift; sourceTree = "<group>"; };
-		BF0C3C5329D482F800CCDE78 /* CampaingsResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CampaingsResponse.json; sourceTree = "<group>"; };
 		BF0C3C5529D485BA00CCDE78 /* CampaignCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignCategory.swift; sourceTree = "<group>"; };
-		BF0C3C5729D48D8F00CCDE78 /* CampaingCategories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CampaingCategories.json; sourceTree = "<group>"; };
 		BF0C3C5F29D4DFC800CCDE78 /* Runtime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Runtime.swift; sourceTree = "<group>"; };
 		BF0C3C6029D4DFC800CCDE78 /* CallbackQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallbackQueue.swift; sourceTree = "<group>"; };
 		BF0C3C6129D4DFC800CCDE78 /* Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delegate.swift; sourceTree = "<group>"; };
@@ -158,6 +155,7 @@
 		BF0C3CA229D4DFC900CCDE78 /* KingfisherManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherManager.swift; sourceTree = "<group>"; };
 		BF0C3CA329D4DFC900CCDE78 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
 		BF0C3CE129D4F33A00CCDE78 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BF57D01129D56E2900931055 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		BFF6E52929D43F5300BA6110 /* FenerClusive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FenerClusive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF6E52C29D43F5300BA6110 /* FenerClusive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FenerClusive.h; sourceTree = "<group>"; };
 		BFF6E54729D4421D00BA6110 /* CampaignsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignsTableViewCell.swift; sourceTree = "<group>"; };
@@ -181,9 +179,8 @@
 			isa = PBXGroup;
 			children = (
 				BF0C3C5D29D4DFB600CCDE78 /* Kingfisher */,
-				BF0C3C5729D48D8F00CCDE78 /* CampaingCategories.json */,
-				BF0C3C5329D482F800CCDE78 /* CampaingsResponse.json */,
 				BF0C3CE129D4F33A00CCDE78 /* Extensions.swift */,
+				BF57D01129D56E2900931055 /* Data.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -454,9 +451,7 @@
 				BF0C3C4929D466CC00CCDE78 /* CampaignCategoryCollectionViewCell.xib in Resources */,
 				BFF6E54E29D44FB100BA6110 /* Assets.xcassets in Resources */,
 				BF0C3C3E29D4586900CCDE78 /* CampaignViewController.xib in Resources */,
-				BF0C3C5829D48D8F00CCDE78 /* CampaingCategories.json in Resources */,
 				BFF6E54A29D4421D00BA6110 /* CampaignsTableViewCell.xib in Resources */,
-				BF0C3C5429D482F800CCDE78 /* CampaingsResponse.json in Resources */,
 				BF0C3C4029D45D5900CCDE78 /* fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,6 +476,7 @@
 				BF0C3CC329D4DFC900CCDE78 /* DiskStorage.swift in Sources */,
 				BF0C3CC829D4DFC900CCDE78 /* ImageFormat.swift in Sources */,
 				BF0C3CC229D4DFC900CCDE78 /* MemoryStorage.swift in Sources */,
+				BF57D01229D56E2900931055 /* Data.swift in Sources */,
 				BF0C3CBA29D4DFC900CCDE78 /* ImageView+Kingfisher.swift in Sources */,
 				BF0C3CC729D4DFC900CCDE78 /* Image.swift in Sources */,
 				BF0C3C5629D485BA00CCDE78 /* CampaignCategory.swift in Sources */,

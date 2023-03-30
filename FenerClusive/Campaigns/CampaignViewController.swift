@@ -67,37 +67,23 @@ class CampaignViewController: UIViewController {
     }
     
     private func readCampaigns(){
-        if let data = loadJson(filename: "CampaingsResponse") {
-            do {
-                let campaignList = try decoder.decode([Campaign].self, from: data)
-                self.campaignList = campaignList
-            } catch {
-                print("error:\(error)")
-            }
+        do {
+            let data = Data(ServiceData.campaings.utf8)
+            let campaignList = try decoder.decode([Campaign].self, from: data)
+            self.campaignList = campaignList
+        } catch {
+            print("error:\(error)")
         }
     }
     
     private func readCategories(){
-        if let data = loadJson(filename: "CampaingCategories") {
-            do {
-                let campaignCategoryList = try decoder.decode([CampaignCategory].self, from: data)
-                self.campaignCategoryList = campaignCategoryList
-            } catch {
-                print("error:\(error)")
-            }
+        do {
+            let data = Data(ServiceData.categories.utf8)
+            let campaignCategoryList = try decoder.decode([CampaignCategory].self, from: data)
+            self.campaignCategoryList = campaignCategoryList
+        } catch {
+            print("error:\(error)")
         }
-    }
-    
-    private func loadJson(filename fileName: String) -> Data? {
-        if let url = Bundle.module.url(forResource: fileName, withExtension: "json") {
-            do {
-                let data = try Data(contentsOf: url)
-                return data
-            } catch {
-                print("error:\(error)")
-            }
-        }
-        return nil
     }
     
     private func setupUI() {
