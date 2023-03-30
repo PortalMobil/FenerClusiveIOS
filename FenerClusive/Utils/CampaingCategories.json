@@ -1,0 +1,80 @@
+[
+    {
+        "CampaignCategoriesID": 1,
+        "CampaignCategoryName": "Öne Çıkanlar",
+        "CampaignCategoryIcon": "http://test.kocailem.com/KocAilem/media/Campaigns/categories/star-curved-outline.png?ext=.png",
+        "CampaignCategoryStatus": true
+    },
+    {
+        "CampaignCategoriesID": 2,
+        "CampaignCategoryName": "Gıda",
+        "CampaignCategoryIcon": "http://test.kocailem.com/KocAilem/media/Campaigns/categories/Ecommerce-Food-icon.png?ext=.png",
+        "CampaignCategoryStatus": true
+    },
+    {
+        "CampaignCategoriesID": 3,
+        "CampaignCategoryName": "Ev-Dayanıklı Tüketim",
+        "CampaignCategoryIcon": "http://test.kocailem.com/KocAilem/media/Campaigns/categories/pot.png?ext=.png",
+        "CampaignCategoryStatus": true
+    },
+    {
+        "CampaignCategoriesID": 4,
+        "CampaignCategoryName": "Giyim",
+        "CampaignCategoryIcon": "http://test.kocailem.com/KocAilem/media/Campaigns/categories/shape@3x.png?ext=.png",
+        "CampaignCategoryStatus": true
+    },
+    {
+        "CampaignCategoriesID": 5,
+        "CampaignCategoryName": "Online Alışveriş",
+        "CampaignCategoryIcon": "http://test.kocailem.com/KocAilem/media/Campaigns/categories/shape@3x_1.png?ext=.png",
+        "CampaignCategoryStatus": true
+    },
+    {
+        "CampaignCategoriesID": 6,
+        "CampaignCategoryName": "Otomotiv",
+        "CampaignCategoryIcon": "http://test.kocailem.com/KocAilem/media/Campaigns/categories/shape@3x_2.png?ext=.png",
+        "CampaignCategoryStatus": true
+    },
+    {
+        "CampaignCategoriesID": 7,
+        "CampaignCategoryName": "Yeme-İçme",
+        "CampaignCategoryIcon": "http://test.kocailem.com/KocAilem/media/Campaigns/categories/shape@3x_3.png?ext=.png",
+        "CampaignCategoryStatus": true
+    },
+    {
+        "CampaignCategoriesID": 8,
+        "CampaignCategoryName": "Eğlence-Kültür-Sanat",
+        "CampaignCategoryIcon": "http://test.kocailem.com/KocAilem/media/Campaigns/categories/combinedShape@3x.png?ext=.png",
+        "CampaignCategoryStatus": true
+    },
+    {
+        "CampaignCategoriesID": 9,
+        "CampaignCategoryName": "Seyahat",
+        "CampaignCategoryIcon": "http://test.kocailem.com/KocAilem/media/Campaigns/categories/combinedShape@3x_1.png?ext=.png",
+        "CampaignCategoryStatus": true
+    },
+    {
+        "CampaignCategoriesID": 10,
+        "CampaignCategoryName": "Spor-Sağlıklı Yaşam",
+        "CampaignCategoryIcon": "http://test.kocailem.com/KocAilem/media/Campaigns/categories/combinedShape@3x_2.png?ext=.png",
+        "CampaignCategoryStatus": true
+    },
+    {
+        "CampaignCategoriesID": 11,
+        "CampaignCategoryName": "Eğitim",
+        "CampaignCategoryIcon": "http://test.kocailem.com/KocAilem/media/Campaigns/categories/shape@3x_4.png?ext=.png",
+        "CampaignCategoryStatus": true
+    },
+    {
+        "CampaignCategoriesID": 12,
+        "CampaignCategoryName": "Hizmet",
+        "CampaignCategoryIcon": "http://test.kocailem.com/KocAilem/media/Campaigns/categories/combinedShape@3x_3.png?ext=.png",
+        "CampaignCategoryStatus": true
+    },
+    {
+        "CampaignCategoriesID": 13,
+        "CampaignCategoryName": "Tüm Ayrıcalıklar",
+        "CampaignCategoryIcon": "http://test.kocailem.com/KocAilem/media/Campaigns/categories/group@3x.png?ext=.png",
+        "CampaignCategoryStatus": true
+    }
+]
