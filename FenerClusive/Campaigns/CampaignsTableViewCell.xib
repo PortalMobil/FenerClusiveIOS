@@ -295,6 +295,11 @@
                                     <constraint firstAttribute="trailing" secondItem="kJr-nz-lRU" secondAttribute="trailing" constant="3" identifier="logoConstraint" id="rEz-g8-vz4"/>
                                     <constraint firstItem="kJr-nz-lRU" firstAttribute="leading" secondItem="mb2-if-MRp" secondAttribute="leading" constant="3" identifier="logoConstraint" id="tn8-le-csS"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
