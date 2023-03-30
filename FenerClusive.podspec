@@ -14,7 +14,7 @@ s.version = "1.0.0"
 s.license = { :type => "MIT", :file => "LICENSE" }
 
 # 4 - Replace with your name and e-mail address
-s.author = { "Seyfettin" => "seyfettin.akyuz@portalgrup.com" }
+s.author = { "Seyfettin" => "mobilops@portalgrup.com" }
 
 # 5 - Replace this URL with your own GitHub page's URL (from the address bar)
 s.homepage = "https://github.com/PortalMobil/FenerClusiveIOS"
